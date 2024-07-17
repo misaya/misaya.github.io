@@ -5,9 +5,7 @@
         <h1>{{ .Site.Title }}</h1>
       </a>
       <p class="lead">
-        {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a
-          href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for
-        Jekyll.{{end}}
+        {{ .Site.Params.description }}
       </p>
     </div>
 
@@ -15,11 +13,11 @@
       <ul class="sidebar-nav">
         <li><a href="{{ .Site.BaseURL }}">首页</a> </li>
         {{ range .Site.Menus.main -}}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        <li><a href="{{.URL}}" target="_blank"> {{ .Name }} </a></li>
         {{- end }}
       </ul>
     </nav>
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2024"}}. All rights reserved. {{end}}</p>
   </div>
 </aside>
