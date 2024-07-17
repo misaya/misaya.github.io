@@ -1,3 +1,4 @@
 baseURL = 'https://misaya.github.io'
 languageCode = 'zh-cn'
 title = '内观自在'
+theme = 'hyde'
