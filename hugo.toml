@@ -8,4 +8,7 @@ description = '观心无心，心空境寂'
 copyright = 'Copyright © 2024 内观自在'
 
 [Menus]
-main = [{ Name = "Github", URL = "https://github.com/misaya/" }]
+main = [
+    { Name = "关于", URL = "/about/" },
+    { Name = "代码", URL = "https://github.com/misaya/" },
+]
