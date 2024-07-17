@@ -2,3 +2,10 @@ baseURL = 'https://misaya.github.io'
 languageCode = 'zh-cn'
 title = '内观自在'
 theme = 'hyde'
+
+[params]
+description = '观心无心，心空境寂'
+copyright = 'Copyright © 2024 内观自在'
+
+[Menus]
+main = [{ Name = "Github", URL = "https://github.com/misaya/" }]
