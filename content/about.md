@@ -5,8 +5,20 @@ draft = false
 +++
 
 ```sequence
-a->b:
+Andrew->China: Says Hello 
+Note right of China: China thinks\nabout it 
+China-->Andrew: How are you? 
+Andrew->>China: I am good thanks!
 ```
+
+```seq
+Andrew->China: Says Hello 
+Note right of China: China thinks\nabout it 
+China-->Andrew: How are you? 
+Andrew->>China: I am good thanks!
+```
+
+
 
 ```csharp
 System.Console.WriteLine("Hello World!");
