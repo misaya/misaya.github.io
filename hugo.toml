@@ -2,10 +2,12 @@ baseURL = 'https://misaya.github.io'
 languageCode = 'zh-cn'
 title = '内观自在'
 theme = 'hyde'
+disqusShortname = 'on'
 
 [params]
 description = '观心无心，心空境寂'
-copyright = 'Copyright © 2024 内观自在'
+copyright = 'Copyright © 2024 Misaya'
+codeLineNumbers = true
 
 [Menus]
 main = [
